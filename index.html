@@ -15,7 +15,7 @@ function descargaArchivo() {
  
   peticion_http.onreadystatechange = muestraContenido;
  
-  peticion_http.open('GET', 'http://127.0.0.1:8080/AJAX/hola.txt', true);
+  peticion_http.open('GET', 'hola.txt', true);
   peticion_http.send(null);
  
   function muestraContenido() {
